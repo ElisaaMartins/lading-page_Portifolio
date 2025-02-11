@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1E1E1E, #3A3A3A);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.cabecalho img {
+    height: 50px;
+}
+
+.cabecalho nav a {
+    margin: 0 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.secao-principal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.secao-principal h1 {
+    font-size: 2.5em;
+}
+
+.secao-principal h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.secao-principal button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.secao-secundaria {
+    margin-top: 50px;
+}
+
+.secao-secundaria h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.secao-secundaria p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+footer img {
+    height: 50px;
+}
