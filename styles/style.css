@@ -1,8 +1,9 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* Fontes
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;400&display=swap'); */
 
-/* configurando o bootstrap */
-:root, :root[data-theme='dark'] {
+/* configurando o bootstrap - cores*/ /* mudar cores */
+:root, :root[data-theme='dark'] { /* tema= escuro */
   --primary-color: #F0F0F0;
 
   --primary-bg-color: #111217;
@@ -38,19 +39,20 @@ body {
 }
 
 /* Cabeçalho */
-.cabecalho {
+/* .cabecalho {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-}
+  margin: 20px;
+}*/
 
-.cabecalho-imagem {
+/* .cabecalho-imagem {
   height: 72px;
 }
-
-.cabecalho-menu {
+ */
+/* .cabecalho-menu {
   display: flex;
   gap: 32px;
 }
@@ -64,12 +66,12 @@ body {
 
 .cabecalho-menu-item:hover {
   color: #ECD6C4;
-}
+} */
 
 /* Conteúdo */
 .conteudo {
   margin-bottom: 48px;
-  border-top: 0.4px solid #FFF2E7;
+  border-top: 0.4px solid #FFF2E7; /* mudar cor */
   padding: 24px;
 }
 
@@ -78,7 +80,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  gap: 32px;
+  gap: 30px;
 }
 
 .conteudo-escrito {
@@ -94,9 +96,10 @@ body {
 }
 
 .conteudo-subtitulo {
-  font-size: 20px;
-  color: #ECD6C4;
-  max-width: 500px;
+  font-size: 15px;
+  color: #ECD6C4;/* mudar cor */
+  max-width: 550px;
+  text-align: justify;
 }
 
 a {
@@ -131,8 +134,23 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 0.625rem;
+  width: 100%;
+  background: transparent;
+  border-radius: 3.125rem;
+  border: none;
+  padding: 0.875rem 1.5rem;
+  transition: ease-in-out .3s;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+/* #linkedin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 0.600em;
-  width: 85%;
+  width: 70%;
   background: transparent;
   border-radius: 3.125rem;
   border: none;
@@ -140,7 +158,7 @@ a:hover {
   transition: ease-in-out .3s;
   cursor: pointer;
   color: var(--primary-color);
-}
+} */
 
 .btn:hover {
   transform: scale(1.05);
