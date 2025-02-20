@@ -47,9 +47,9 @@ body {
   padding: 1rem;
 }
 
-/* .cabecalho-imagem {
-  height: 72px;
-} */
+.cabecalho-imagem {
+  height: 35px;
+}
 
 .cabecalho-menu {
   display: flex;
@@ -443,18 +443,22 @@ a:hover {
  /* Projetos */
 .projetos {
   margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+/*   gap: 16px; */
+  margin-top: 48px;
 }
 
-.experiencia-titulo {
-  border-top: 0.4px solid #FFF2E7;
-  padding-top: 32px;
-  font-size: 28px;
-}
 
 .projetos-titulo {
   text-align: center;
   font-size: 28px;
   margin-bottom: 24px;
+  border-top: 0.4px solid #FFF2E7;
+  padding-top: 32px;
+  font-size: 28px;
 }
 
 .projetos_container {
