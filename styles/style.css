@@ -20,6 +20,7 @@ body {
   font-family: 'Sarala', sans-serif;
   background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%); /* mudar */
   color: #FFF2E7;
+  padding-top: 35px;
 }
 
 /* Cabeçalho */
@@ -29,12 +30,20 @@ body {
   align-items: center;
   justify-content: space-around;
   padding: 1rem;
+  position: fixed;  /* Fixa no topo */
+  top: 0;
+  left: 0;
+  width: 100%;  /* Ocupa toda a largura */
+  z-index: 1000;  
+  background-color: rgba(163, 128, 104, 0.7);
+  height: 50px;
 }
 
 /* .cabecalho-imagem {
   height: 50px;
 }
  */
+
 .cabecalho-menu {
   display: flex;
   gap: 32px;
@@ -51,7 +60,7 @@ body {
 /* Conteúdo */
 .conteudo {
   margin-bottom: 48px;
-  border-top: 0.4px solid #FFF2E7;
+  /* border-top: 0.4px solid #FFF2E7; */
   padding: 24px;
 }
 
