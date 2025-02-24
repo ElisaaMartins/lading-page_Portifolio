@@ -31,10 +31,10 @@ body {
   padding: 1rem;
 }
 
-.cabecalho-imagem {
-  height: 35px;
+/* .cabecalho-imagem {
+  height: 50px;
 }
-
+ */
 .cabecalho-menu {
   display: flex;
   gap: 32px;
@@ -461,6 +461,11 @@ a:hover {
 .card-row .card-content .badge {
   color: #ffffff;
   background: #a38068; /* linear-gradient(120deg, #00b5fd 0%, #0047b1 100%);  */
+}
+
+.github {
+  width: 500px;
+  align-items: center;
 }
 
 /* Rodapé */
